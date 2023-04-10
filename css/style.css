@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.content-header{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.buttons-header{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: aqua;
+    margin-right: 30px;
+}
+a:visited, a:link{
+    color: #ABABAB;
+}
+.menu-but{
+    margin-left: 100px;
+}
