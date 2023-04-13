@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html {
+    scroll-behavior: smooth;
+    font-family: 'Nunito', sans-serif;
+  }
+.content-header{ 
+    vertical-align: middle; 
+    display: flex;
+    margin: auto;
+    text-align: center;
+    background-color:  rgba(0, 0, 0, 0.687);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.shapka{
+    margin-left: 7%;
+    margin-right: 10%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.buttons-header{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: aqua;
+    margin-right: 30px;
+}
+.buttons-header > a{
+    padding-right: 20px;
+}
+a:visited, a:link{
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+.menu-but{
+}
+.logo{
+    margin-left: 230px;
+    padding-top: 18px;
+    height: 50px;
+}
+.heading{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+    border: 2px solid #000000;
+}
+.info{
+
+    margin: auto;
+    margin-top: 40px;
+    width: 50%;
+    border: 2px solid #000000;
+    border-radius: 25px;
+}
+.block1{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.block2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+.str{
+    display: flex;
+    margin: auto;
+    font-size: 1.6rem;
+
+    margin-bottom: 20px;
+}
+.str > p{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.str > textarea{
+    margin-left: 80px;
+}
+.from_field{
+    width: 400px;
+    margin-left: 20px;
+}
+.validateBtn{
+    margin-left: 80px;
+    width: 300px;
+    height: 50px;
+}
+footer{
+    background-color: #231f20;
+}
+.footmain{
+    display: flex;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.logos{
+    text-align: center;
+    margin-right: 50px;
+}
+.footlogo{
+    width: 300px;
+    margin-bottom: 10px;
+}
+.footlinks{
+    width: 400px;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+.zagol{
+    margin-top: 12px;
+    font-size: 2.3rem;
+}
+.footlinks > p{
+    margin-bottom: 40px;
+}
+.footlinks > p > a{
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+.links{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+.links > a > img{
+    width: 70px;
+    height: 60px;
+    margin-right: 20px;
+}
+.end{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #000000;
+}

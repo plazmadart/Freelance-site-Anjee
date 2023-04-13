@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html {
+    scroll-behavior: smooth;
+    font-family: 'Nunito', sans-serif;
+  }
+.content-header{ 
+    vertical-align: middle; 
+    display: flex;
+    margin: auto;
+    text-align: center;
+    background-color:  rgba(0, 0, 0, 0.687);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.shapka{
+    margin-left: 7%;
+    margin-right: 10%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons-header{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: aqua;
+    margin-right: 30px;
+}
+.buttons-header > a{
+    padding-right: 20px;
+}
+a:visited, a:link{
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+.logo{
+    margin-left: 150px;
+    padding-top: 18px;
+    height: 50px;
+}
+.test{
+    display: flex;
+    color: #ffffff;
+}
+.test > p{
+    margin-top: 12px;
+    margin-left: 5px;
+    font-size: 1.7rem;
+}
+.container{
+    width: 100%;
+    background-image: url(../img/developer3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.main{
+    margin: auto;
+    height: 600px;
+    display: block;
+}
+.texts{
+    margin-top: 80px;
+    color: #c1c1c1;  
+    display: flex;
+    justify-content: space-between;
+}
+.info1{
+    margin-right: 70px;
+    margin-left: 50px;
+    text-align: justify;
+    width: 400px;
+}
+.info1 > p{
+    margin-top: 20px;
+}
+.info1 > h2{
+    text-align: center;
+}
+.info2{
+    margin-top: 80px;
+    margin-right: 70px;
+    margin-left: 50px;
+    text-align: justify;
+    width: 400px;
+}
+.info2 > p{
+    margin-top: 20px;
+}
+.info2 > h2{
+    text-align: center;
+}   
+.down{
+    margin-top: 200px;
+    text-align: center;
+}
+.cards{
+    margin-top: 250px;
+    background-color: white;
+}
+.heading{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.categories{
+
+    font-size: 1.5rem;
+    color: black;
+    margin: auto;
+    width: 90%;
+    border-spacing: 50px 30px;
+}
+.category{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1000px;
+    margin-bottom: 10px;
+    box-shadow: 5px 8px 25px rgb(133, 133, 133);
+    border: 2px solid #cecece;
+    border-radius: 20px;
+    vertical-align:middle;
+    display: flex;
+    margin: auto;
+}
+
+.tdborder{
+    border-color: #000000;
+    border: 2px;
+}
+.vacancy{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.pic{
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

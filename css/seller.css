@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html {
+    scroll-behavior: smooth;
+    font-family: 'Nunito', sans-serif;
+  }
+.content-header{ 
+    vertical-align: middle; 
+    display: flex;
+    margin: auto;
+    text-align: center;
+    background-color:  rgba(0, 0, 0, 0.687);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.shapka{
+    margin-left: 7%;
+    margin-right: 10%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    background: url(../img/bg-продавец.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.category-name{
+    width: 100%;
+    color: #dbdbdb;
+    font-size: 4rem;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    height: 1200px;
+
+}
+.category-name > p {
+    padding-top: 400px;
+}
+.buttons-header{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: aqua;
+    margin-right: 30px;
+}
+.buttons-header > a{
+    padding-right: 20px;
+}
+a:visited, a:link{
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+.logo{
+    margin-left: 230px;
+    padding-top: 18px;
+    height: 50px;
+}
+.heading{
+    width: 600px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    text-align: center;
+    border: 3px solid #795451;
+    box-shadow: 10px 15px 10px 2px rgba(213, 146, 98, 0.635);
+    border-radius: 90px 0px;
+    vertical-align: middle;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 2.8rem;
+}
+.offers{
+    margin-top: 150px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.2rem;
+}
+.offer{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    background-color: #d1966088;
+
+}
+.offer:hover {
+    background: rgba(74, 74, 74, 0);
+	color: #000000;
+	box-shadow: 10px 10px 30px 2px rgba(0, 0, 0, 0.5);
+  }
+.offer > div > a{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px    ;
+    font-size: 2.2rem;
+    color: #000;
+    text-decoration: none;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+.offer > div > a:hover{
+    background-color: #2ce780cf;
+    box-shadow: 10px 10px 30px 2px rgba(0, 0, 0, 0.5);
+  
+}
+footer{
+    background-color: #231f20;
+}
+.footmain{
+    display: flex;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.logos{
+    text-align: center;
+    margin-right: 50px;
+}
+.footlogo{
+    width: 300px;
+    margin-bottom: 10px;
+}
+.footlinks{
+    width: 400px;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+.zagol{
+    margin-top: 12px;
+    font-size: 2.3rem;
+}
+.footlinks > p{
+    margin-bottom: 40px;
+}
+.footlinks > p > a{
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+.links{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+.links > a > img{
+    width: 70px;
+    height: 60px;
+    margin-right: 20px;
+}
+.end{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #000000;
+}
